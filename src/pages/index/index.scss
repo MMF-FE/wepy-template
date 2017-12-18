@@ -1,0 +1,21 @@
+/*
+ * index
+ * @Author: hejinming <b84866466@gmail.com>
+ * @Date: 2017-12-18 15:58:55
+ * @since 1.0.0
+ */
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}

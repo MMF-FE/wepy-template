@@ -1,0 +1,12 @@
+/*
+ * ${name}
+ * @Author: ${username}
+ * @Date: ${curDate}
+ * @since ${version}
+ */
+
+import Base from 'base'
+
+export default class ${componentName} extends Base {
+
+}

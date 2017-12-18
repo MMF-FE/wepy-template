@@ -1,0 +1,23 @@
+/*
+ * counter
+ * @Author: hejinming <b84866466@gmail.com>
+ * @Date: 2017-12-18 16:50:16
+ * @since 1.0.0
+ */
+.counter {
+    text-align: left;
+    font-size: 12px;
+}
+
+.count {
+    font-size: 18px;
+    font-weight: bold;
+
+    &.red {
+        color: red;
+    }
+
+    &.green {
+        color: green;
+    }
+}

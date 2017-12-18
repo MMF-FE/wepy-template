@@ -1,0 +1,11 @@
+<template>
+    <view class="panel">
+        <slot name="title">
+        Title
+        </slot>
+        <slot>
+        </slot>
+    </view>
+</template>
+<style lang="scss" src="./panel.scss" ></style>
+<script src="./panel.ts"></script>

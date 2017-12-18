@@ -1,0 +1,7 @@
+<template>
+    <view>
+        <text>${name}</text>
+    </view>
+</template>
+<style lang="scss" src="./${name}.scss" ></style>
+<script src="./${name}.ts"></script>
