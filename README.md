@@ -1,12 +1,13 @@
 # wepy-template
-微信小程序 typescript 框架。(目前 typescript 支持还不是很好，所有先默认使用 es6。)
+微信小程序模板框架。(目前 `typescript` 支持还不是很好，所有先默认使用 `es6。`)
 
 ### 介绍
-wepy-typescript 是由 wepy-cli 生成后的项目结构，根据 typescript，scss，wxml 语言分离出相应文件且有针对性的小程序项目模板。
+`wepy-template` 是由 `wepy-cli` 生成后的项目结构，根据 `typescript，scss，wxml` 语言分离出相应文件且有针对性的小程序项目模板。
+由于 `wepy-cli` 原因，目前只能先把代码 `clone` 下来，然后在该项目进行 `git inti` 和 `yarn init` 操作，或使用 `yarn init-project` 命令。
 
 ### 特性
 
-* 默认使用 ES2015+特性（暂不支持 typescript ，[主要原因](#bug)）
+* 默认使用 ES2015+特性（暂不支持 typescript ，[主要原因 bug(1)](#bug)）
 * 默认使用 Scss
 * 新增 cli 工具，生成 pages 或 components 文件
 
@@ -31,6 +32,12 @@ yarn cli -- -h
 pages : yarn cli -- a index
 components : yarn cli -- a index -t c
 ```
+#### [注意](https://tencent.github.io/wepy/document.html#/?id=%e9%87%8d%e8%a6%81%e6%8f%90%e9%86%92)
+- 使用微信开发者工具 --> 添加项目，项目目录请选择 `dist` 目录
+- 关闭微信开发者工具 `ES6` 转 `ES5` 功能
+- 关闭上传代码时样式自动补全
+- 关闭代码压缩上传
+
 #### bug
 1. `script` 标签中添加 `lang=typescript` 属性，编译后的代码缺少执行函数。
 2. `wepy.config.js` 中设置 `wepyExt=.vue` 会出现部分编译出错。
