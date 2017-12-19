@@ -53,22 +53,22 @@ if (prod) {
     module.exports.compilers['sass'] = { outputStyle: 'compressed' }
 
     // 压缩js
-    // module.exports.plugins = {
-    //     uglifyjs: {
-    //         filter: /\.js$/,
-    //         config: {
-    //         }
-    //     },
-    //     imagemin: {
-    //         filter: /\.(jpg|png|jpeg)$/,
-    //         config: {
-    //             jpg: {
-    //                 quality: 80
-    //             },
-    //             png: {
-    //                 quality: 80
-    //             }
-    //         }
-    //     }
-    // }
+    module.exports.plugins = {
+        uglifyjs: {
+            filter: /\.js$/,
+            config: {
+            }
+        },
+        imagemin: {
+            filter: /\.(jpg|png|jpeg)$/,
+            config: {
+                jpg: {
+                    quality: 80
+                },
+                png: {
+                    quality: 80
+                }
+            }
+        }
+    }
 }
