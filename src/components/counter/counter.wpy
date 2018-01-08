@@ -6,4 +6,4 @@
     </view>
 </template>
 <style lang="scss" src="./counter.scss" ></style>
-<script src="./counter.ts"></script>
+<script src="./counter.ts" lang="typescript"></script>

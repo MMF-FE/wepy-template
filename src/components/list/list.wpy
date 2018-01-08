@@ -11,4 +11,4 @@
     </view>
 </template>
 <style lang="scss" src="./list.scss" ></style>
-<script src="./list.ts"></script>
+<script src="./list.ts" lang="typescript"></script>

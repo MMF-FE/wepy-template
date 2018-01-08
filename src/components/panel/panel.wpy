@@ -8,4 +8,4 @@
     </view>
 </template>
 <style lang="scss" src="./panel.scss" ></style>
-<script src="./panel.ts"></script>
+<script src="./panel.ts" lang="typescript"></script>

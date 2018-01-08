@@ -21,9 +21,9 @@ module.exports = {
     eslint: true,
     compilers: {
         typescript: {
-            compilerOptions: {
+            // compilerOptions: {
                 // module: "system"
-            }
+            // }
         },
         babel: {
             sourceMap: true,

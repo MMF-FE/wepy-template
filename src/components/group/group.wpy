@@ -10,4 +10,4 @@
     </view>
 </template>
 <style lang="scss" src="./group.scss" ></style>
-<script src="./group.ts"></script>
+<script src="./group.ts" lang="typescript"></script>

@@ -5,4 +5,4 @@
     </view>
 </template>
 <style lang="scss" src="./groupItem.scss" ></style>
-<script src="./groupItem.ts"></script>
+<script src="./groupItem.ts" lang="typescript"></script>
