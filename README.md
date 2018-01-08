@@ -38,6 +38,19 @@ components : yarn cli -- a index -t c
 ```console
 yarn build 或 yarn web
 ```
+## 目录结构
+```
+- src
+ |- api  # 接口
+   |- modules # 按模块对接接口
+ |- common # 公共
+ |- static # 静态资源
+   |- assets # 图片资源
+ |- components # 组件
+ |- mixin
+ |- style # app 全局 sass 样式
+ |- utils # 工具函数
+```
 
 #### [注意](https://tencent.github.io/wepy/document.html#/?id=%e9%87%8d%e8%a6%81%e6%8f%90%e9%86%92)
 - 使用微信开发者工具 --> 添加项目，项目目录请选择 `dist` 目录
