@@ -2,7 +2,7 @@
 微信小程序模板框架。(目前支持和使用 `typescript` )
 
 ### 介绍
-`wepy-template` 是由 `wepy-cli` 生成后的项目结构，根据 `typescript，scss，wxml` 语言分离出相应文件且有针对性的小程序项目模板。
+`wepy-template` 是由 [`wepy-cli`](https://github.com/Tencent/wepy) 生成后的项目结构，根据 `typescript，scss，wxml` 语言分离出相应文件且有针对性的小程序项目模板。
 
 由于 `wepy-cli` 原因，目前只能先把代码 `clone` 下来，然后在该项目进行 `git inti` 和 `yarn init` 操作，或使用 `yarn init-project` 命令。
 
