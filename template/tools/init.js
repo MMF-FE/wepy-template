@@ -3,8 +3,8 @@
  * 初始化项目 (或使用 yarn init 来初始化)
  * @Author: ciwyaitd
  * @Date: 2017-12-15 18:30:14
- * @Last Modified by: hejinming <b84866466@gmail.com>
- * @Last Modified time: 2017-12-16 10:41:43
+ * @Last Modified by: hejinming
+ * @Last Modified time: 2018-01-09 16:02:04
  */
 'use strict'
 
@@ -47,7 +47,7 @@ async function init() {
         name: 'name',
         message: 'Project name(项目名称)：',
         default: () => {
-            return 'wepy-applet'
+            return 'wepy typescript project'
         },
         validate: (name) => {
             if (!name) return '请输入项目名称'
