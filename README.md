@@ -23,7 +23,11 @@ yarn 或 npm i -d
 yarn init-project
 
 如果使用 vue-cli, 执行以下命令：
+npm install -g vue-cli
 vue init MMF-FE/wepy-template my-project
+cd my-project
+yarn
+yarn dev
 ```
 #### 运行
 ```console
