@@ -1,9 +1,14 @@
 {
-    "name": "wepy-cli-template-typescript",
-    "version": "1.0.0",
-    "license": "MIT",
-    "description": "wepy use typescript",
-    "dependencies": {
-      "vue-cli": "^2.8.2"
-    }
+  "name": "wepy-cli-template-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "wepy use typescript",
+  "scripts": {
+    "init-project": "node init.js"
+  },
+  "dependencies": {
+    "inquirer": "^5.0.0",
+    "shelljs": "^0.7.8",
+    "vue-cli": "^2.8.2"
+  }
 }

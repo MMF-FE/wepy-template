@@ -20,7 +20,10 @@ yarn 或 npm i -d
 ```
 #### 初始化
 ```console
-yarn init 或 yarn init-project
+yarn init-project
+
+如果使用 vue-cli, 执行以下命令：
+vue init MMF-FE/wepy-template my-project
 ```
 #### 运行
 ```console

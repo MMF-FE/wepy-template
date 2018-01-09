@@ -4,7 +4,6 @@
     "description": "{{ description }}",
     "main": "dist/app.js",
     "scripts": {
-        "init-project": "node tools/init.js",
         "dev": "wepy build --watch",
         "build": "cross-env NODE_ENV=production wepy build --no-cache",
         "web": "wepy build --output web",
