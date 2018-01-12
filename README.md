@@ -37,9 +37,12 @@ yarn dev
 ```console
 yarn cli -- -h
 
-如
+如（旧版 yarn）：
 pages : yarn cli -- a index
 components : yarn cli -- a index -t c
+新版：
+pages：yarn cli add index
+components: yarn cli add index -t component
 ```
 #### 构建
 ```console

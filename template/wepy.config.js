@@ -20,6 +20,12 @@ module.exports = {
     },
     eslint: true,
     compilers: {
+        sass: {
+            sourceMap: true,
+            includePaths: [
+                path.join(__dirname, 'src/style'),
+            ]
+        },
         typescript: {
             // compilerOptions: {
                 // module: "system"

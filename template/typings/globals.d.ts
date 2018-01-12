@@ -4,6 +4,6 @@ declare module 'page' {
 }
 
 declare module 'component' {
-    import Base from 'common/componentBase'
+    import Base from 'common/baseComponent'
     export default Base
 }
