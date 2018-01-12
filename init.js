@@ -4,7 +4,7 @@
  * @Author: ciwyaitd
  * @Date: 2017-12-15 18:30:14
  * @Last Modified by: hejinming
- * @Last Modified time: 2018-01-09 17:35:49
+ * @Last Modified time: 2018-01-12 19:22:26
  */
 'use strict'
 
@@ -28,7 +28,7 @@ async function init() {
         name: 'name',
         message: 'Project name(项目名称)：',
         default: () => {
-            return 'wepy typescript project'
+            return 'wepy-project'
         },
         validate: (name) => {
             if (!name) return '请输入项目名称'
@@ -39,7 +39,7 @@ async function init() {
         name: 'description',
         message: '项目描述：',
         default: () => {
-            return ''
+            return 'wepy typescript project'
         }
     }, {
         type: 'input',
@@ -70,7 +70,7 @@ async function init() {
 
 async function build(answers) {
     mkdir('-p', answers.path)
-    cp('-R','template/*', answers.path)
+    cp('-R', 'template/.', answers.path)
     const target = path.join(__dirname, answers.path, 'package.json')
     const packagePath = path.join(__dirname, 'template', 'package.json')
     let packageFile = JSON.parse( fs.readFileSync(packagePath, 'utf8') )
