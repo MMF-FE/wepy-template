@@ -4,9 +4,8 @@
  * @Date: ${curDate}
  * @since ${version}
  */
+import Page from 'page'
 
-import Base from 'base'
-
-export default class ${componentName} extends Base {
+export default class ${componentName} extends Page {
 
 }

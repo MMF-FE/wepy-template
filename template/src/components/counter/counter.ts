@@ -5,9 +5,9 @@
  * @since 1.0.0
  */
 
-import Base from 'componentBase'
+import Component from 'component'
 
-export default class Counter extends Base {
+export default class Counter extends Component {
     props = {
         num: {
             type: [Number, String],

@@ -5,10 +5,10 @@
  * @since 1.0.0
  */
 
-import Base from 'componentBase'
+import Component from 'component'
 import GroupItem from '../groupItem/groupItem'
 
-export default class Group extends Base {
+export default class Group extends Component {
     props = {
         grouplist: {},
         index: {}

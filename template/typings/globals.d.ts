@@ -1,9 +1,9 @@
-declare module 'base' {
+declare module 'page' {
     import Base from 'common/base'
     export default Base
 }
 
-declare module 'componentBase' {
+declare module 'component' {
     import Base from 'common/componentBase'
     export default Base
 }

@@ -5,9 +5,9 @@
  * @since 1.0.0
  */
 
-import Base from 'componentBase'
+import Component from 'component'
 
-export default class List extends Base {
+export default class List extends Component {
     data = {
         list: [
             {

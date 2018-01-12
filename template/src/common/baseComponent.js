@@ -1,5 +1,5 @@
 /*
- * 基类
+ * 组件基类
  */
 import wepy from 'wepy'
 

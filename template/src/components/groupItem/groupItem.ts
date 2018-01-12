@@ -5,9 +5,9 @@
  * @since 1.0.0
  */
 
-import Base from 'componentBase'
+import Component from 'component'
 
-export default class GroupItem extends Base {
+export default class GroupItem extends Component {
     props = {
         gitem: {}
     }

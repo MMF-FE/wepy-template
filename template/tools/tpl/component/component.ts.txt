@@ -5,8 +5,8 @@
  * @since ${version}
  */
 
-import Base from 'componentBase'
+import Component from 'component'
 
-export default class ${componentName} extends Base {
+export default class ${componentName} extends Component {
 
 }

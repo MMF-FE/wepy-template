@@ -13,8 +13,8 @@ module.exports = {
     resolve: {
         alias: {
             '@': path.join(__dirname, 'src'),
-            'base': path.join(__dirname, 'src/common/base.js'),
-            'componentBase': path.join(__dirname, 'src/common/componentBase.js')
+            'page': path.join(__dirname, 'src/common/base.js'),
+            'component': path.join(__dirname, 'src/common/baseComponent.js')
         },
         modules: ['node_modules']
     },

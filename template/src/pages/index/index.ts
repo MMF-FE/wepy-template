@@ -5,8 +5,7 @@
  * @since 1.0.0
  */
 
-import Base from 'base'
-import wepy from 'wepy'
+import Page from 'page'
 import List from '@/components/list/list'
 import Panel from '@/components/panel/panel'
 import Counter from '@/components/counter/counter'
@@ -14,7 +13,7 @@ import Group from '@/components/group/group'
 import Toast from 'wepy-com-toast'
 import testMixin from '@/mixins/test'
 
-export default class Main extends wepy.page {
+export default class Main extends Page {
     config = {
         navigationBarTitleText: 'test'
     }
