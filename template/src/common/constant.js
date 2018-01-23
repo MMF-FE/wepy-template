@@ -1,5 +1,5 @@
 /*
- * api
+ * 常量
  */
 
 export default {
