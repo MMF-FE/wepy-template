@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.lock
 
 # Dependency directories
 node_modules
