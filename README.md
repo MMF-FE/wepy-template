@@ -5,6 +5,7 @@
 `wepy-template` 是由 [`wepy-cli`](https://github.com/Tencent/wepy) 生成后的项目结构，根据 `typescript，scss，wxml` 语言分离出相应文件且有针对性的小程序项目模板。
 
 ~~由于 `wepy-cli` 原因，目前只能先把代码 `clone` 下来，然后在该项目进行 `git inti` 和 `yarn init` 操作，或使用 `yarn init-project` 命令。~~
+wepy-cli于1.7.0版本开始支持 `wepy init` 生成模板
 [初始化命令在下方](#初始化)
 
 ### 特性
@@ -23,9 +24,9 @@ yarn 或 npm i -d
 ```console
 yarn init-project
 
-如果使用 vue-cli, 执行以下命令：
-npm install -g vue-cli
-vue init MMF-FE/wepy-template my-project
+使用 wepy-cli命令：
+npm install -g wepy-cli
+wepy init MMF-FE/wepy-template my-project
 cd my-project
 yarn
 yarn dev
