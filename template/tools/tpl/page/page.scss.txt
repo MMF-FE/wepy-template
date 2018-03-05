@@ -1,7 +1,0 @@
-/*
- * ${name}
- * @Author: ${username}
- * @Date: ${curDate}
- * @since ${version}
- */
-@import "base/base";

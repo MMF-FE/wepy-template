@@ -1,7 +1,0 @@
-/*
- * api
- */
-
-export default {
-
-}

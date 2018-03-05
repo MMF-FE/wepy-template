@@ -1,8 +1,0 @@
-<template>
-    <view class="groupitem">
-        --<text class="id">{{gitem.childid}}.</text>
-        <text class="name" @tap="tap"> {{gitem.childname}}</text>
-    </view>
-</template>
-<style lang="scss" src="./groupItem.scss" ></style>
-<script src="./groupItem.ts" lang="typescript"></script>

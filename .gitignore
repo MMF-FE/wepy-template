@@ -1,13 +1,6 @@
-# Logs
-logs
-*.log
-*.lock
-
-# Dependency directories
-node_modules
-
-# Optional npm cache directory
-.npm
-
 dist/
-web/
+node_modules/
+tools/
+src/
+typings/
+*.js
