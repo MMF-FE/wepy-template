@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "inquirer": "^5.0.0",
-    "shelljs": "^0.7.8",
     "prompt": "^1.0.0",
+    "shelljs": "^0.7.8",
+    "sshpk": "^1.13.2",
     "vue-cli": "^2.8.2"
   }
 }
