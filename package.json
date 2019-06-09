@@ -7,7 +7,9 @@
     "init-project": "node init.js"
   },
   "dependencies": {
+    "handlebars": "^4.0.14",
     "inquirer": "^5.0.0",
+    "js-yaml": "^3.13.1",
     "prompt": "^1.0.0",
     "shelljs": "^0.7.8",
     "sshpk": "^1.13.2",
